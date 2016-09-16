@@ -1,0 +1,22 @@
+body {
+	background-color: #D8DEE7;
+}
+
+.container {
+	height:100%;
+	width: 80%;
+		background-color: #ADBACD;
+
+}
+
+.aboutme {
+	height: 100%;
+	width: 50%;
+	background-color: red;
+}
+
+.another {
+	height:100%;
+	width:100%;
+	background-color: blue;
+}
