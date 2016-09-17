@@ -2,21 +2,41 @@ body {
 	background-color: #D8DEE7;
 }
 
-.container {
-	height:100%;
-	width: 80%;
-		background-color: #ADBACD;
+.navbar{
+	width: 85%;
+	margin: 0 auto;
+	border: solid 2px;
+	background-color: transparent;
+}
 
+.main-content {
+	height:100%;
+	width: 85%;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .aboutme {
 	height: 100%;
-	width: 50%;
-	background-color: red;
+	width: 100%;
+	background-color: #ADBACD;
+	border-width: 2px;
+	border-style: dashed;
 }
 
-.another {
+.gallery {
 	height:100%;
 	width:100%;
-	background-color: blue;
+	background-color: #798DA8;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.container{
+		width: 100%;
+	}
 }
