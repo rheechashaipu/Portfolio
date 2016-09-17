@@ -1,12 +1,17 @@
 body {
 	background-color: #D8DEE7;
+	padding-top: 50px;
 }
 
 .navbar{
 	width: 85%;
 	margin: 0 auto;
-	border: solid 2px;
-	background-color: transparent;
+	background-color: #C7AFBD;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #FFFFFF;
+	font-size: 16px;
 }
 
 .main-content {
@@ -36,7 +41,9 @@ body {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-	.container{
+	.container,
+	.navbar
+	{
 		width: 100%;
 	}
 }
