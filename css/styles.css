@@ -3,6 +3,11 @@ body {
 	padding-top: 50px;
 }
 
+h2 {
+	text-align: center;
+}
+
+
 .navbar{
 	width: 85%;
 	margin: 0 auto;
@@ -15,19 +20,46 @@ body {
 }
 
 .main-content {
-	height:100%;
+	min-height: 100%;
+	height:auto;
 	width: 85%;
 	margin: 0 auto;
 	padding: 0;
 }
 
 .aboutme {
-	height: 100%;
+	height: auto;
+	min-height: 100%;
 	width: 100%;
 	background-color: #ADBACD;
-	border-width: 2px;
-	border-style: dashed;
 }
+
+.list-group {
+	margin: auto;
+	width: 40%;
+	text-align: center;
+}
+
+.list-group-item {
+	background-color: #BCBBE5;
+	line-height: 90%;
+}
+
+.introduction {
+	padding-top: 10px;
+}
+
+.about-me-text{
+	text-align: center;
+}
+
+
+#selfie {
+	height:60%;
+	width: auto;
+}
+
+
 
 .gallery {
 	height:100%;
@@ -38,12 +70,15 @@ body {
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 568px)
+  and (max-device-width: 600px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-	.container,
-	.navbar
+	.main-content,
+	.navbar,
+	.aboutme,
+	.row
 	{
 		width: 100%;
+		margin: 0;
 	}
 }
