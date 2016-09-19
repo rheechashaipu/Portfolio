@@ -40,6 +40,7 @@ h2 {
 	text-align: center;
 }
 
+
 .list-group-item {
 	background-color: #BCBBE5;
 	line-height: 90%;
@@ -60,11 +61,28 @@ h2 {
 }
 
 
-
 .gallery {
-	height:100%;
+	height:auto;
+	min-height: 100%;
 	width:100%;
 	background-color: #798DA8;
+}
+
+
+.projects-header{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.portfolio {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.portfolio div {
+	padding: 10px;
 }
 
 
