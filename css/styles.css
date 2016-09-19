@@ -11,7 +11,7 @@ h2 {
 .navbar{
 	width: 85%;
 	margin: 0 auto;
-	background-color: #C7AFBD;
+	background-color: #1DBECD;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -31,7 +31,8 @@ h2 {
 	height: auto;
 	min-height: 100%;
 	width: 100%;
-	background-color: #ADBACD;
+	background-color: #5B7E8A;
+
 }
 
 .list-group {
@@ -42,7 +43,7 @@ h2 {
 
 
 .list-group-item {
-	background-color: #BCBBE5;
+	background-color: #DC978E;
 	line-height: 90%;
 }
 
@@ -68,23 +69,50 @@ h2 {
 	background-color: #798DA8;
 }
 
+.thumbnail>img {
+	height: 350px;
+	width: auto;
+}
 
-.projects-header{
-	text-align: center;
-	margin: 0 auto;
+.projects-header {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	text-align: center;
 }
 
 .portfolio {
-	width: 50%;
+	padding-top: 20px;
+	width: 80%;
+	height: auto;
 	margin: 0 auto;
 }
 
-.portfolio div {
-	padding: 10px;
+
+
+a.thumbnail {
+	border: none;
 }
 
+.row-centered{
+	text-align: center;
+}
+
+.contacts-bar {
+	width: 85%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.logos {
+	float: right;
+	margin: 0;
+	padding-right: 10px;
+}
+
+.email {
+	background-color: #484459;
+	font-size: 20px;
+	border-radius: 5px;
+}
 
 @media only screen 
   and (min-device-width: 320px) 
